@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;   
+    display: flex;
+}
+.container-large{
+width: 1200px;
+margin: 0 auto;
+ }
+ .bgc-blue{
+    background-color: #b4d0e7;
+ }
+ .container-large > h1{
+    font-size: 80px;
+    text-align: start;
+    padding-top: 75px;
+ }
+ body{
+font-family: 'Open Sans', sans-serif;
+ }
+.presentation{
+    display: flex;
+    padding-top: 60px;
+}
+.text{
+    height: 400px;
+    border: 2px solid black;
+    flex-basis: 30%;
+}
+.img{
+    flex-basis: 70%;
+      height: 400px;
+    border: 2px solid black;
+}
