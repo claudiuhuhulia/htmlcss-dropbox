@@ -9,8 +9,8 @@ header{
     display: flex;
 }
 .container-large{
-width: 1200px;
-margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
  }
  .bgc-blue{
     background-color: #b4d0e7;
@@ -70,5 +70,61 @@ h2{
     text-align: center;
     border-bottom: 2px solid black;
     padding: 10px 0 10px 0;
+}
 
+.partner-box{
+    display: flex;
+    height: 400px;
+    margin-top: 100px;
+}
+.img-partner{
+    flex-basis: 60%;
+    border: 2px solid black;
+}
+.text-partner{
+    flex-basis: 40%;
+    border: 2px solid black;
+}
+
+.funct{
+    display: flex;
+    flex-basis: calc(100% / 3);
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.funct-col{
+    flex-basis: calc(100% / 3);
+    height: 200px;
+    border: 2px solid black;
+}
+
+#w-60{
+    width: 60%;
+    line-height: 50px;
+}
+.more{ 
+     padding: 80px 0 80px 0;
+}
+
+.affiliates{
+    display: flex; 
+    flex-wrap: wrap;
+     height: 200px;
+}
+.af-box{
+    flex-basis: calc(100% / 3);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.af-desc{
+flex-basis: calc(100% / 3);
+border: 2px solid black;
+}
+.af-logo{
+    flex-basis: 50%;
+    height: 50%;
+    border: 2px solid black;
 }
