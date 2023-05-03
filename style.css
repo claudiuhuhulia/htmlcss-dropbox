@@ -147,3 +147,14 @@ button{
     border: none;
     margin-top: 20px;
 }
+
+.question{
+    border-bottom: 1px solid gray;
+    padding: 30px 0 30px 0;
+}
+
+.question-box{
+    margin: 60px 0 120px 0;
+    border-top: 1px solid gray;
+
+}
