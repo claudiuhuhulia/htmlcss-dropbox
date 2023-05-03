@@ -38,7 +38,7 @@ font-family: 'Open Sans', sans-serif;
     border: 2px solid black;
 }
 .container-small{
-    width: 1000px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -127,4 +127,23 @@ border: 2px solid black;
     flex-basis: 50%;
     height: 50%;
     border: 2px solid black;
+}
+
+.trial{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0 90px 0;
+    justify-content: space-between;
+}
+
+.trial > h2{
+    flex-basis: 50%;
+    
+}
+
+button{
+    padding: 10px 40px;
+    border: none;
+    margin-top: 20px;
 }
