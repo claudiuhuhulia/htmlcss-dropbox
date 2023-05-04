@@ -101,7 +101,7 @@ h2{
 .payment-plan{
     display: flex;
     gap: 50px;
-    height: 700px;
+    height: 900px;
 }
 .payment-box{
     flex-basis: calc(100% / 3);
@@ -112,6 +112,9 @@ h2{
     border-bottom: 1px solid gray;
     text-align: center;
     padding: 10px 0 10px 0;
+}
+.title-section > i{
+    padding-right: 5px;
 }
 .payment-content{
     padding: 10px 20px;
@@ -145,11 +148,11 @@ padding: 20px 0 15px 0;
 .button{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 .button > button{
    height: 100%;
    width: 100%;
-
 }
 
 .contact{
@@ -269,7 +272,17 @@ footer{
     height: 200px;
     margin-top: 20px;
 }
-.bord-top{
-    border-top: 2px solid grey;
-    width: 10%;
+.payment-content > .bord-top{
+    border-top: 1px solid grey;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+h4{
+    margin-bottom: 20px;
+}
+
+.fa-check{
+    color: blue;
+}
+
