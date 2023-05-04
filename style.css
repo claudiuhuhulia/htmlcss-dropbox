@@ -27,24 +27,33 @@ button{
     background-color: #0061ff;
     padding: 10px 15px;
     color: white;
+    border: none;
 }
 .text {
-    padding: 0 0 20px 0;
+    line-height: 25px;
 }
 
 .text > button{
     margin: 30px 0 30px 0;
 }
-
+li{
+    list-style: inside;
+}
 img{
     max-width: 100%;
 }
 
 .text > i{
-    padding-top: 150px;
+    padding-top: 100px;
 
 }
-
+.circle{
+    display: inline;
+    padding-right: 40px;
+}
+.circle > i{
+  color: gray;
+}
 
 .container-large{
     width: 1200px;
@@ -87,16 +96,41 @@ h2{
 }
 
 .fatt{
-    height: 40px;
-    padding: 30px 0px 30px 0;
+    padding: 50px 0px 50px 0;
 }
 .payment-plan{
     display: flex;
+    gap: 50px;
 }
 .payment-box{
     height: 400px;
     flex-basis: calc(100% / 3);
-    border: 2px solid black;
+    border: 1px solid gray;
+    
+}
+.title-section{
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.payment-content, .descr-plan{
+    padding: 10px 20px;
+    line-height: 30px;
+}
+.payment-content > h3{
+padding: 20px 0 15px 0;
+}
+
+.price{
+    font-weight: bolder;
+}
+.duration{
+    color: gray;
+}
+.descr-plan{
+    display: flex;
+    flex-direction: column;
+   
 }
 
 .contact{
