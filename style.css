@@ -101,9 +101,9 @@ h2{
 .payment-plan{
     display: flex;
     gap: 50px;
+    height: 700px;
 }
 .payment-box{
-    height: 400px;
     flex-basis: calc(100% / 3);
     border: 1px solid gray;
     
@@ -140,6 +140,16 @@ padding: 20px 0 15px 0;
 }
 .plan-text{
     padding-left: 5px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.button > button{
+   height: 100%;
+   width: 100%;
+
 }
 
 .contact{
