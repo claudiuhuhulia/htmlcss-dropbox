@@ -245,7 +245,6 @@ padding: 20px 0 15px 0;
 .affiliates{
     display: flex; 
     flex-wrap: wrap;
-     height: 200px;
 }
 .af-box{
     flex-basis: calc(100% / 3);
@@ -260,9 +259,23 @@ border: 2px solid black;
 }
 .af-logo{
     flex-basis: 50%;
-    height: 50%;
+    height: 250px;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+svg{
+    width: 50%;
+    height: 50%;
+   fill: white;
+   background-color: #a2d39b;
+}
+.bgc-green{
+    background-color: #a2d39b;
+}
+
 
 .trial{
     margin-bottom: 30px;
