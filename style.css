@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header{  
     display: flex;
     align-items: center;
@@ -31,18 +30,14 @@ button{
 .text {
     line-height: 25px;
 }
-
 .text > button{
     margin: 30px 0 30px 0;
 }
-
 img{
     max-width: 100%;
 }
-
 .text > i{
     padding-top: 100px;
-
 }
 .circle{
     display: inline;
@@ -51,7 +46,6 @@ img{
 .circle > i{
   color: gray;
 }
-
 .container-large{
     width: 1200px;
     margin: 0 auto;
@@ -67,7 +61,6 @@ img{
  }
  body{
     font-family: 'Open Sans', sans-serif;
-
  }
 .presentation{
     display: flex;
@@ -80,18 +73,15 @@ img{
 .img{
     flex-basis: 70%;
       height: 400px;
-
 }
 .container-small{
     width: 1000px;
     margin: 0 auto;
 }
-
 .container-small > h2{
     padding-top: 130px;
     font-size: 2.5em;
 }
-
 .fatt{
     padding: 50px 0px 50px 0;
 }
@@ -103,7 +93,6 @@ img{
 .payment-box{
     flex-basis: calc(100% / 3);
     border: 1px solid gray;
-    
 }
 .title-section{
     border-bottom: 1px solid gray;
@@ -117,7 +106,7 @@ img{
     padding: 10px 20px;
 }
 .payment-content > h3{
-padding: 20px 0 15px 0;
+    padding: 20px 0 15px 0;
 }
 
 .price{
@@ -141,7 +130,6 @@ padding: 20px 0 15px 0;
 .plan-text{
     padding-left: 5px;
 }
-
 .button{
     text-align: center;
     margin-top: 20px;
@@ -151,7 +139,6 @@ padding: 20px 0 15px 0;
    height: 100%;
    width: 100%;
 }
-
 .contact{
     border: 1px solid black;
     margin-top: 50px;
@@ -165,7 +152,6 @@ padding: 20px 0 15px 0;
     padding-left: 30px;
     padding-right: 30px;
 }
-
 .left-contact > h2{
     padding-bottom: 20px;
 }
@@ -190,17 +176,14 @@ padding: 20px 0 15px 0;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .row > i{
     align-self:baseline;
 }
-
 .team{
     text-align: center;
     border-bottom: 2px solid black;
     padding: 10px 0 10px 0;
 }
-
 .partner-box{
     display: flex;
     margin-top: 140px;
@@ -213,7 +196,6 @@ padding: 20px 0 15px 0;
     padding: 40px 30px;
     margin-left: 20px;
 }
-
 .funct{
     display: flex;
     flex-basis: calc(100% / 3 - 15px);
@@ -221,7 +203,6 @@ padding: 20px 0 15px 0;
     margin-top: 50px;
     gap: 15px;
 }
-
 .funct-col{
     flex-basis: calc(100% / 3 - 10px);
     padding: 0 15px 0 15px;
@@ -248,7 +229,6 @@ padding: 20px 0 15px 0;
     display: flex;
     flex-wrap: wrap;
 }
-
 .af-desc{
     flex-basis: calc(100% / 3);
     padding: 30px 23px;
@@ -345,20 +325,20 @@ padding: 20px 0 15px 0;
 }
 .footer-nav{
     display: flex;
-    padding-top: 30px;
+    padding-top: 100px;
     color: white;
 }
 .col{
     flex-basis: 20%;
-    height: 500px;
-    border: 2px solid rgb(240, 235, 235);
+    height: 350px;
 }
 footer{
     background-color: black;
 }
 .language{
-    height: 200px;
+    height: 100px;
     margin-top: 20px;
+    color: gray;
 }
  .bord-top{
     border-top: 1px solid grey;
@@ -373,12 +353,11 @@ footer{
 .fa-check{
     color: blue;
 }
-
 ul {
     list-style-type: none;
 }
 li{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .col > h2{
     padding-bottom: 10px;
@@ -386,4 +365,12 @@ li{
 a{
     text-decoration: none;
     color: white;
+}
+.language > .bord-top{
+    width: 10%;
+    border-color: white;
+}
+.language > i{
+    color: gray;
+    padding-right: 10px;
 }
