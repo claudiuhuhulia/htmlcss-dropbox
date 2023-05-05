@@ -10,11 +10,10 @@ header{
     padding: 20px 0 20px 0;
     justify-content: space-between;
 }
-.logo{
+.logoh{
     padding-left: 20px;
 }
 header a{
-    text-decoration: none;
     color: gray;
     padding: 0 20px 0 20px;
 }
@@ -36,9 +35,7 @@ button{
 .text > button{
     margin: 30px 0 30px 0;
 }
-li{
-    list-style: inside;
-}
+
 img{
     max-width: 100%;
 }
@@ -63,9 +60,10 @@ img{
     background-color: #b4d0e7;
  }
  .container-large > h1{
-    font-size: 5em;
+    font-size: 4.5em;
     text-align: start;
     padding-top: 75px;
+    font-weight: 800;
  }
  body{
     font-family: 'Open Sans', sans-serif;
@@ -77,7 +75,6 @@ img{
 }
 .text{
     height: 400px;
-
     flex-basis: 30%;
 }
 .img{
@@ -101,7 +98,7 @@ img{
 .payment-plan{
     display: flex;
     gap: 50px;
-    height: 900px;
+    height: 1000px;
 }
 .payment-box{
     flex-basis: calc(100% / 3);
@@ -139,7 +136,7 @@ padding: 20px 0 15px 0;
 .row{
     display: flex;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .plan-text{
     padding-left: 5px;
@@ -248,58 +245,98 @@ padding: 20px 0 15px 0;
 }
 .af-box{
     flex-basis: calc(100% / 3);
-    border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
 }
 
 .af-desc{
-flex-basis: calc(100% / 3);
-border: 2px solid black;
+    flex-basis: calc(100% / 3);
+    padding: 30px 23px;
+    background-color: #f5f5f5;
 }
 .af-logo{
     flex-basis: 50%;
-    height: 250px;
-    border: 2px solid black;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.fill svg {
+     fill: rgb(255, 255, 255);
+    max-width: 50%;
+}
+.bgc-azure > svg path{
+    width: 200px;
+    fill: white;
+}
+.bgc-red-tops > svg path{
+    fill: white;
+}
+.bgc-blackblue{
+    background-color: #0d2481;
+}
+.bgc-yellow{
+    background-color: #ffd830;
+}
+.bgc-grey{
+    background-color: #b4d0e7;
+}
 
-svg{
-    width: 50%;
-    height: 50%;
-   fill: white;
-   background-color: #a2d39b;
+.bgc-azure{
+    background-color: #0093ce;
 }
 .bgc-green{
     background-color: #a2d39b;
 }
+.bgc-mar{
+    background-color: #61082b;
+}
+.bgc-red, .bgc-red-tops{
+    background-color: #ff1c1c;
+}
+.bgc-red > svg path{
+  fill: white;
 
+}
+.bgc-red{
+   background-color:#d5001f;
+}
+.logo > img{
+    height: 80px;
+}
+.logo > p{
+    margin-bottom: 35px;
+}
 
 .trial{
     margin-bottom: 30px;
     display: flex;
     align-items: center;
-    padding: 30px 0 90px 0;
+    padding: 90px 0 90px 0;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .trial > h2{
     flex-basis: 50%;
-    
+    font-size: 2.5em;
+    color: #61082b;
 }
 
 .trial > button{
-    padding: 10px 40px;
+    padding: 15px 50px;
     border: none;
-    margin-top: 20px;
     background-color: white;
+    color: black;
+    font-size: 1em;
 }
 
 .question{
     border-bottom: 1px solid gray;
     padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .question-box{
@@ -309,6 +346,7 @@ svg{
 .footer-nav{
     display: flex;
     padding-top: 30px;
+    color: white;
 }
 .col{
     flex-basis: 20%;
@@ -322,13 +360,13 @@ footer{
     height: 200px;
     margin-top: 20px;
 }
-.payment-content > .bord-top{
+ .bord-top{
     border-top: 1px solid grey;
     width: 20%;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-h4{
+.left-contact > h4{
     margin-bottom: 20px;
 }
 
@@ -336,3 +374,16 @@ h4{
     color: blue;
 }
 
+ul {
+    list-style-type: none;
+}
+li{
+    padding-top: 10px;
+}
+.col > h2{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
