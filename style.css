@@ -6,7 +6,6 @@
 header{  
     display: flex;
     align-items: center;
-    padding: 20px 0 20px 0;
     justify-content: space-between;
     position: fixed;
     background-color: white;
@@ -16,7 +15,11 @@ header{
     padding-left: 20px;
 }
 header a{
-    padding: 0 20px 0 20px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+}
+header a:hover{
+    border-bottom: 2px solid black;
 }
 .left-nav, .right-nav{
     display: flex;
@@ -30,6 +33,9 @@ button{
     color: white;
     border: none;
     font-size: 1em;
+}
+button:hover{
+    background-color: rgb(77, 152, 177);
 }
 .text {
     line-height: 25px;
@@ -96,6 +102,8 @@ img{
 .container-small > h2{
     padding-top: 130px;
     font-size: 2.5em;
+    padding-bottom: 80px;
+    border-bottom: 1px solid gray;
 }
 .fatt{
     padding: 50px 0px 50px 0;
@@ -267,7 +275,13 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 15px solid transparent;
 }
+.af-logo:hover{
+    border: 15px solid #a2d39b57;
+}
+
+
 .fill svg {
      fill: rgb(255, 255, 255);
     max-width: 50%;
@@ -338,16 +352,23 @@ img{
 }
 
 .question{
-    border-bottom: 1px solid gray;
+
     padding: 40px 0 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.question-box > p{
+    display: none;
+}
+.question-box:hover p{
+    display: block;
+}
+
+
 .question-box{
-    margin: 60px 0 120px 0;
-    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 .footer-nav{
     display: flex;
@@ -360,6 +381,7 @@ img{
 }
 footer{
     background-color: black;
+    margin-top: 150px;
 }
 .language{
     height: 100px;
